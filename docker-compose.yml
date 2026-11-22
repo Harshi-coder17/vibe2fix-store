@@ -1,4 +1,4 @@
-# Runs the shop locally: database + app at http://localhost:5000
+# Runs the shop locally: database + app at http://localhost:8000
 #   docker compose up --build
 services:
   db:
@@ -23,7 +23,7 @@ services:
       ADMIN_EMAIL: admin@vibe2fix.local
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:-LocalAdmin#2026}
     ports:
-      - "127.0.0.1:5000:5000"
+      - "127.0.0.1:8000:5000"   # 8000 on your machine (5000 is often taken on macOS)
     depends_on:
       db:
         condition: service_healthy

@@ -12,7 +12,8 @@ You need [Docker Desktop](https://www.docker.com/products/docker-desktop/) (or D
 docker compose up --build
 ```
 
-The first build takes a few minutes. When you see `Vibe2Fix backend listening`, open **http://localhost:5000**.
+The first build takes a few minutes. When you see `Vibe2Fix backend listening`, open **http://localhost:8000**.
+(The log says port 5000: that is inside the container. On your machine it is 8000.)
 
 ### Demo accounts
 
