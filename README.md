@@ -19,7 +19,6 @@ The first build takes a few minutes. When you see `Vibe2Fix backend listening`, 
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | `admin@vibe2fix.local` | `LocalAdmin#2026` |
 | Customer | `customer@vibe2fix.com` | `Demo@Vibe2024` |
 
 These exist only in your local copy. You can also register new accounts.
